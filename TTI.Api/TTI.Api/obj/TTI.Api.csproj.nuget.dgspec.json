@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api.csproj": {}
+    "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api\\TTI.Api.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api.csproj": {
+    "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api\\TTI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api.csproj",
+        "projectUniqueName": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api\\TTI.Api.csproj",
         "projectName": "TTI.Api",
-        "projectPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api.csproj",
+        "projectPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api\\TTI.Api.csproj",
         "packagesPath": "C:\\Users\\leone\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\obj\\",
+        "outputPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,30 +45,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[5.0.17, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"

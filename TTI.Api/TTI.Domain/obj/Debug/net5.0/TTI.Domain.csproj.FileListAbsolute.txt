@@ -1,0 +1,12 @@
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\bin\Debug\net5.0\TTI.Domain.deps.json
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\bin\Debug\net5.0\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\bin\Debug\net5.0\ref\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\bin\Debug\net5.0\TTI.Domain.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.csproj.AssemblyReference.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.AssemblyInfoInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.AssemblyInfo.cs
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\ref\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.pdb

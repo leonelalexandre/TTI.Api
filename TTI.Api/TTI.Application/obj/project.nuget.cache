@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "itUbTsnkL3bS/LyV1OmQhixEkMENn/OBAOYVLbHncpLrjbnkyc0ZlHCpajk1OVc5rtzE+JFXzOJC+IO5XUDFtA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Application\\TTI.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leone\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

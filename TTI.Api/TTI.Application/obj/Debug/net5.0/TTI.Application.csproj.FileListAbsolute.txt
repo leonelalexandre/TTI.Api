@@ -1,0 +1,12 @@
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\TTI.Application.deps.json
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\TTI.Application.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\ref\TTI.Application.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\TTI.Application.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.csproj.AssemblyReference.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.AssemblyInfoInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.AssemblyInfo.cs
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\ref\TTI.Application.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.pdb

@@ -1,0 +1,15 @@
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\TTI.Infra.Data.deps.json
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\TTI.Infra.Data.runtimeconfig.json
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\TTI.Infra.Data.runtimeconfig.dev.json
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\TTI.Infra.Data.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\ref\TTI.Infra.Data.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\bin\Debug\net5.0\TTI.Infra.Data.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.csproj.AssemblyReference.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.AssemblyInfo.cs
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\ref\TTI.Infra.Data.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Data\obj\Debug\net5.0\TTI.Infra.Data.genruntimeconfig.cache

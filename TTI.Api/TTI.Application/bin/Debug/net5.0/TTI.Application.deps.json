@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "TTI.Application/1.0.0": {
         "dependencies": {
-          "AutoMapper": "12.0.1"
+          "AutoMapper": "12.0.1",
+          "TTI.Domain": "1.0.0"
         },
         "runtime": {
           "TTI.Application.dll": {}
@@ -25,7 +26,12 @@
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {}
+      "Microsoft.CSharp/4.7.0": {},
+      "TTI.Domain/1.0.0": {
+        "runtime": {
+          "TTI.Domain.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -47,6 +53,11 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "TTI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

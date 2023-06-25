@@ -22,6 +22,16 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "TTI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TTI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TTI.Domain.dll": {}
+        }
       }
     }
   },
@@ -109,11 +119,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TTI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TTI.Domain/TTI.Domain.csproj",
+      "msbuildProject": "../TTI.Domain/TTI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AutoMapper >= 12.0.1"
+      "AutoMapper >= 12.0.1",
+      "TTI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -149,7 +165,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Domain\\TTI.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Domain\\TTI.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

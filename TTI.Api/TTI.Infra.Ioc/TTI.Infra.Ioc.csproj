@@ -9,7 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DependencyInjection\" />
+    <ProjectReference Include="..\TTI.Application\TTI.Application.csproj" />
+    <ProjectReference Include="..\TTI.Domain\TTI.Domain.csproj" />
+    <ProjectReference Include="..\TTI.Infra.Data\TTI.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

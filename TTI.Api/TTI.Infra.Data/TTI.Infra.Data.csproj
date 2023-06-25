@@ -14,9 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Context\" />
-    <Folder Include="EntityConfiguration\" />
-    <Folder Include="Repository\" />
+    <ProjectReference Include="..\TTI.Domain\TTI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,10 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Dto\" />
-    <Folder Include="Interface\" />
-    <Folder Include="Mapping\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\TTI.Domain\TTI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

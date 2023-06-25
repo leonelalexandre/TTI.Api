@@ -10,3 +10,6 @@ C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.csp
 C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\ref\TTI.Application.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\bin\Debug\net5.0\TTI.Domain.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Application\obj\Debug\net5.0\TTI.Application.csproj.CopyComplete

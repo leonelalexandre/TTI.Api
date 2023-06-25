@@ -10,3 +10,10 @@ C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\obj\Debug\net5.0\TTI.Infra.Ioc.csproj.
 C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\obj\Debug\net5.0\TTI.Infra.Ioc.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\obj\Debug\net5.0\ref\TTI.Infra.Ioc.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\obj\Debug\net5.0\TTI.Infra.Ioc.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Application.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Domain.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Infra.Data.dll
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Application.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Domain.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\bin\Debug\net5.0\TTI.Infra.Data.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Infra.Ioc\obj\Debug\net5.0\TTI.Infra.Ioc.csproj.CopyComplete

@@ -1639,6 +1639,61 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "TTI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "TTI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TTI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TTI.Application.dll": {}
+        }
+      },
+      "TTI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/TTI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TTI.Domain.dll": {}
+        }
+      },
+      "TTI.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
+          "TTI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TTI.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TTI.Infra.Data.dll": {}
+        }
+      },
+      "TTI.Infra.Ioc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "TTI.Application": "1.0.0",
+          "TTI.Domain": "1.0.0",
+          "TTI.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TTI.Infra.Ioc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TTI.Infra.Ioc.dll": {}
+        }
       }
     }
   },
@@ -6039,6 +6094,26 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "TTI.Application/1.0.0": {
+      "type": "project",
+      "path": "../TTI.Application/TTI.Application.csproj",
+      "msbuildProject": "../TTI.Application/TTI.Application.csproj"
+    },
+    "TTI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TTI.Domain/TTI.Domain.csproj",
+      "msbuildProject": "../TTI.Domain/TTI.Domain.csproj"
+    },
+    "TTI.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../TTI.Infra.Data/TTI.Infra.Data.csproj",
+      "msbuildProject": "../TTI.Infra.Data/TTI.Infra.Data.csproj"
+    },
+    "TTI.Infra.Ioc/1.0.0": {
+      "type": "project",
+      "path": "../TTI.Infra.Ioc/TTI.Infra.Ioc.csproj",
+      "msbuildProject": "../TTI.Infra.Ioc/TTI.Infra.Ioc.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6048,7 +6123,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "TTI.Infra.Ioc >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6084,7 +6160,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Infra.Ioc\\TTI.Infra.Ioc.csproj": {
+              "projectPath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Infra.Ioc\\TTI.Infra.Ioc.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

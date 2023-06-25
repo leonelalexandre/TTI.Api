@@ -16,7 +16,7 @@ namespace TTI.Api.Controllers
             _productService = productService;
         }
         [HttpGet]
-        [Route("SelecionarTodos")]
+        [Route("GetByAll")]
         public async Task<ActionResult<IEnumerable<ProductGetDto>>> GetCategories()
         {
             var dto = await _productService.Filter();

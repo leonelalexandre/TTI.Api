@@ -72,7 +72,6 @@ namespace TTI.Application.Services
                 entity.IdCategoriesNavigation = _mapper.Map<CategoryGetDto, Category>(dtoCategory);
             }
 
-
             var lstDto = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductGetDto>>(lstEntity);
 
             return lstDto;

@@ -9,3 +9,4 @@ C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.csproj.CoreCo
 C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\ref\TTI.Domain.dll
 C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.pdb
+C:\Projetos\TTI.Api\TTI.Api\TTI.Domain\obj\Debug\net5.0\TTI.Domain.csproj.AssemblyReference.cache

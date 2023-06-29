@@ -16,7 +16,8 @@ namespace TTI.Infra.Data.Migrations
                             	[Price] [SMALLMONEY] NOT NULL,
                             	[Description] [text] NOT NULL,
                             	[IdCategory] [int] NOT NULL,
-                            	[Country] [varchar](50)
+                            	[Country] [varchar](50),
+                                [Photo] [varbinary](max) NOT NULL,
                              CONSTRAINT [PK_Products] PRIMARY KEY CLUSTERED 
                             (
                             	[Id] ASC

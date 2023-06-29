@@ -18,7 +18,7 @@ namespace TTI.Api.Controllers
             _categoryService = categoryService;
         }
         [HttpGet]
-        [Route("SelecionarTodos")]
+        [Route("GetByAll")]
         public async Task<ActionResult<IEnumerable<CategoryGetDto>>> GetCategories()
         {
             var dto = await _categoryService.Filter();
@@ -32,7 +32,7 @@ namespace TTI.Api.Controllers
         {
             var save = await _categoryService.AddAsync(dto);
             if (save)
-                return Ok("Categoria salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -43,7 +43,7 @@ namespace TTI.Api.Controllers
         {
            var save = await _categoryService.EditAsync(dto);
             if (save)
-                return Ok("Categoria salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -54,7 +54,7 @@ namespace TTI.Api.Controllers
         {
             var delete = await _categoryService.DeleteAsync(id);
             if (delete)
-                return Ok("Categoria Detelatada com sucesso!");
+                return Ok(id);
             else
                 return BadRequest("Ocorreu um erro ao deletar");
         }

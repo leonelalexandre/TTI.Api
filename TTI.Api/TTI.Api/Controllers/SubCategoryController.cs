@@ -18,7 +18,7 @@ namespace TTI.Api.Controllers
             _subCategoryService = subCategoryService;
         }
         [HttpGet]
-        [Route("SelecionarTodos")]
+        [Route("GetByAll")]
         public async Task<ActionResult<IEnumerable<SubCategoryGetDto>>> GetSubCategories()
         {
             var dto = await _subCategoryService.Filter();
@@ -32,7 +32,7 @@ namespace TTI.Api.Controllers
         {
             var save = await _subCategoryService.AddAsync(dto);
             if (save)
-                return Ok("Sub-Categoria salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -43,7 +43,7 @@ namespace TTI.Api.Controllers
         {
            var save = await _subCategoryService.EditAsync(dto);
             if (save)
-                return Ok("Sub-Categoria salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -54,7 +54,7 @@ namespace TTI.Api.Controllers
         {
             var delete = await _subCategoryService.DeleteAsync(id);
             if (delete)
-                return Ok("Sub-Categoria Detelatada com sucesso!");
+                return Ok(id);
             else
                 return BadRequest("Ocorreu um erro ao deletar");
         }

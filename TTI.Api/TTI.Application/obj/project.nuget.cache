@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "S/Qv/9QCzCOO5bmGiBcaGZNm7frxvLtYuUxIjrFtLl5prg6ozqhUgANnsKDl+gymWRjI3aM1XloO89TN1zmA8Q==",
+  "dgSpecHash": "v6R1vFlaSZgbgv9r8jvnTPI1RR8ZcAzZuEqQQQh9LC1KPF4Nk+UUsdyuvFdEF+1ZFS6quymbMrcyS/w4F2cePA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\TTI.Api\\TTI.Api\\TTI.Application\\TTI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leone\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\leone\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\leone\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

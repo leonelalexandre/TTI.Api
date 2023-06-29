@@ -26,6 +26,8 @@ namespace TTI.Api
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+            services.AddCors();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -50,6 +52,8 @@ namespace TTI.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors(option => option.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();
 

@@ -3,6 +3,10 @@ using TTI.Application.Interface;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.IO;
+using Microsoft.AspNetCore.Http;
+using System;
+using System.Net.Http.Headers;
 
 namespace TTI.Api.Controllers
 {
@@ -30,9 +34,51 @@ namespace TTI.Api.Controllers
         {
             var save = await _productService.AddAsync(dto);
             if (save)
-                return Ok("Produto salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
+        }
+
+        [HttpPost]
+        [Route("UploadImage")]
+        public async Task<ActionResult> UploadImage()
+        {
+            byte[] image = null;
+            var httpRequest = HttpContext.Request;
+
+            var file = httpRequest.Form.Files[0];
+
+
+                MemoryStream ms = new MemoryStream();
+                file.CopyTo(ms);
+
+                image = ms.ToArray();
+
+            string imageBase64Data = Convert.ToBase64String(image);
+            string urlImage = string.Format("data:image/jpg;base64,{0}", imageBase64Data);
+
+            if (image != null)
+                return Ok(urlImage);
+            else
+                return BadRequest("Ocorreu um erro ao carregar a imagem");
+        }
+
+
+        [HttpGet]
+        [Route("RestoreImage/{id:int}")]
+        public async Task<ActionResult> RestoreImage(int id)
+        {
+            var dto = await _productService.GetById(id);
+
+            string imageBase64Data = Convert.ToBase64String(dto.Photo);
+
+            string imageDataURL =
+                    string.Format("data:image/jpg;base64,{0}", imageBase64Data);
+
+            if (imageDataURL != null)
+                return Ok(imageDataURL);
+            else
+                return BadRequest("Ocorreu um erro ao carregar a imagem");
         }
 
         [HttpPut]
@@ -41,7 +87,7 @@ namespace TTI.Api.Controllers
         {
             var save = await _productService.EditAsync(dto);
             if (save)
-                return Ok("Produto salvo com sucesso!");
+                return Ok(dto);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -52,7 +98,7 @@ namespace TTI.Api.Controllers
         {
             var save = await _productService.DeleteAsync(id);
             if (save)
-                return Ok("Produto deletado com sucesso!");
+                return Ok(id);
             else
                 return BadRequest("Ocorreu um erro ao salvar");
         }
@@ -62,6 +108,12 @@ namespace TTI.Api.Controllers
         public async Task<ActionResult> GetById(int id)
         {
             var dto = await _productService.GetById(id);
+
+            string imageBase64Data = Convert.ToBase64String(dto.Photo);
+
+            dto.ImageSelected =
+                    string.Format("data:image/jpg;base64,{0}", imageBase64Data);
+
             if (dto == null)
                 return NotFound();
 
@@ -69,9 +121,12 @@ namespace TTI.Api.Controllers
         }
 
         [HttpGet]
-        [Route("GetByKeyword")]
+        [Route("GetByKeyword/{keyword}")]
         public async Task<ActionResult<IEnumerable<ProductGetDto>>> GetByKeyword(string keyword)
         {
+            if (string.IsNullOrEmpty(keyword))
+                keyword = null;
+
             var dto = await _productService.GetByKeyword(keyword);
 
             return Ok(dto);

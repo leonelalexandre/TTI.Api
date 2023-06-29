@@ -11,6 +11,7 @@ namespace TTI.Domain.Entity
         public string Description { get; set; }
         public int IdCategory { get; set; }
         public string Country { get; set; }
+        public byte[] Photo { get; set; }
 
         public virtual Category IdCategoriesNavigation { get; set; }
     }
